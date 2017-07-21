@@ -85,6 +85,10 @@ public class TestBase {
 				
 			}
 			
+			if (System.getProperty("browser") != null){
+				browser = System.getProperty("browser");
+			}
+			
 			config.setProperty("browser", browser);
 						
 
